@@ -1218,6 +1218,22 @@ kbd {
   font-style: normal;
   background-color: #fff494;
 }
+.search-btns {
+  height: search-assist-height;
+  text-align: center;
+}
+.search-btns-item {
+  margin: 0 5px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  line-height: search-assist-height;
+  color: #fff;
+  background-color: #a4d8fa;
+  cursor: pointer;
+}
+.search-btns-item i {
+  margin: 0 3px;
+}
 .search-input input {
   width: 100%;
 }
@@ -2197,6 +2213,17 @@ kbd {
 }
 .footer .exturl__icon {
   color: #fff;
+}
+.comments {
+  margin: 1.5rem 0 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  background-color: var(--color-card);
+  float: left;
+}
+.fb-comments iframe {
+  width: 100% !important;
 }
 .copy-button {
   position: absolute;
